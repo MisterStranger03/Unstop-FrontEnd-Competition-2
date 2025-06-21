@@ -1,116 +1,238 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>InlighnTech Replica</title>
-  <link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlighn Tech - Transform Your Career</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- PRELOADER -->
-  <div class="preloader">
-    <div class="spinner"></div>
-  </div>
 
-  <!-- CUSTOM CURSOR -->
-  <div class="cursor"></div>
-  <div class="cursor-follower"></div>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
 
-  <!-- NAVBAR -->
-  <header>
-    <nav class="navbar">
-      <a href="#" class="logo">InlighnTech</a>
-      <ul class="nav-links">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="nav-toggle">
-        <span></span><span></span><span></span>
-      </div>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo"><img src="https://i.ibb.co/6rC6hC4/logo.png" alt="Inlighn Tech"></a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#programs" class="nav-link">Programs</a></li>
+                    <li><a href="#verify" class="nav-link">Verify Certificate</a></li>
+                    <li><a href="#special" class="nav-link">What's Special</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn-portal">Login to Portal</a>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Transforming Ideas Into Reality</h1>
-      <p>Your partner in cutting-edge tech solutions.</p>
-      <a href="#services" class="btn">Our Services</a>
-    </div>
-    <div class="hero-image">
-      <img src="https://via.placeholder.com/600x400" alt="Hero placeholder"/>
-    </div>
-  </section>
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>Transform Your Career with <br><span>INLIGHN TECH</span></h1>
+                    <p>Gain real-world experience with our immersive Internship programs in Cyber Security, Full Stack Development, Data Science, Data Analyst and in various tech domains. Learn today, lead tomorrow.</p>
+                    <a href="#programs" class="btn-explore">Explore Internships</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://i.ibb.co/mHkGqFf/hero-image.png" alt="Robotic Hand">
+                </div>
+            </div>
+            <div class="hero-bg-shapes">
+                <div class="shape1"></div>
+                <div class="shape2"></div>
+            </div>
+        </section>
 
-  <!-- SERVICES -->
-  <section id="services" class="services">
-    <h2>Our Services</h2>
-    <div class="service-cards">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Service 1">
-        <h3>Web Development</h3>
-        <p>Modern, responsive sites & apps.</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Service 2">
-        <h3>Mobile Apps</h3>
-        <p>iOS & Android solutions.</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Service 3">
-        <h3>UI/UX Design</h3>
-        <p>User-centric interfaces.</p>
-      </div>
-    </div>
-  </section>
+        <!-- Recognitions Section -->
+        <section class="recognitions">
+            <div class="container recognitions-container">
+                <img src="https://i.ibb.co/N2XQ3yX/ministry.png" alt="Ministry of Corporate Affairs">
+                <img src="https://i.ibb.co/7C9Cwhj/iso.png" alt="ISO Certified">
+                <img src="https://i.ibb.co/rpxCq4V/startup.png" alt="Startup India">
+            </div>
+        </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>We’re a team of passionate developers and designers dedicated to pushing the boundaries of technology and delivering exceptional digital experiences.</p>
-  </section>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-container">
+                <div class="about-image"><img src="https://i.ibb.co/hZ2vKdx/about-us.jpg" alt="Team discussing"></div>
+                <div class="about-content">
+                    <h2>We Provide Best Internship For You</h2>
+                    <p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs. Founded with a passion for providing meaningful and immersive learning experiences, we offer internship programs that equip students and young professionals with practical skills in Full Stack Development, Data Science, and Project Management.</p>
+                    <a href="#" class="btn-know-more">Know More</a>
+                </div>
+            </div>
+        </section>
 
-  <!-- TEAM -->
-  <section id="team" class="team">
-    <h2>Our Team</h2>
-    <div class="team-members">
-      <div class="member">
-        <img src="https://via.placeholder.com/200" alt="Member">
-        <h4>Jane Doe</h4>
-        <p>CEO & Founder</p>
-      </div>
-      <div class="member">
-        <img src="https://via.placeholder.com/200" alt="Member">
-        <h4>John Smith</h4>
-        <p>Lead Developer</p>
-      </div>
-      <div class="member">
-        <img src="https://via.placeholder.com/200" alt="Member">
-        <h4>Emily Lee</h4>
-        <p>UI/UX Designer</p>
-      </div>
-    </div>
-  </section>
+        <!-- Features Section -->
+        <section id="special" class="features">
+            <div class="container features-container">
+                <div class="feature-item">
+                    <div class="feature-image"><img src="https://i.ibb.co/yY1SgDk/projects.jpg" alt="Real-World Projects"></div>
+                    <div class="feature-text">
+                        <div class="feature-icon"><img src="https://i.ibb.co/Y0P7sJd/icon-projects.png" alt=""></div>
+                        <h3>Real-World Projects</h3>
+                        <p>Gain hands-on experience with real industry projects and build a portfolio that stands out.</p>
+                    </div>
+                </div>
+                <div class="feature-item reverse">
+                    <div class="feature-text">
+                        <div class="feature-icon"><img src="https://i.ibb.co/yQj9yC2/icon-mentor.png" alt=""></div>
+                        <h3>Expert Mentorship</h3>
+                        <p>Learn from seasoned professionals who guide you through every step of your journey.</p>
+                    </div>
+                     <div class="feature-image"><img src="https://i.ibb.co/vVRv8rP/mentorship.jpg" alt="Expert Mentorship"></div>
+                </div>
+            </div>
+        </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <h2>Get In Touch</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required/>
-      <input type="email" placeholder="Your Email" required/>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
+        <!-- Who We Are Section -->
+        <section class="who-we-are">
+            <div class="container">
+                <div class="section-header">
+                    <h2>WHO WE ARE</h2>
+                    <div class="swiper-navigation">
+                        <div class="who-we-are-prev"><i class="fas fa-arrow-left"></i></div>
+                        <div class="who-we-are-next"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                <div class="swiper who-we-are-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide who-card">
+                             <div class="who-card-icon"><img src="https://i.ibb.co/N73dZy3/icon-about.png" alt=""></div>
+                            <h3>About INLIGHN TECH</h3>
+                            <p>We believe that the future of education lies in bridging the gap between academic learning and industry needs...</p>
+                        </div>
+                        <div class="swiper-slide who-card">
+                            <div class="who-card-icon"><img src="https://i.ibb.co/K7v7rDk/icon-mission.png" alt=""></div>
+                            <h3>Our Mission</h3>
+                            <p>To empower students and young professionals by providing immersive, real-world learning experiences through tailored internship programs.</p>
+                        </div>
+                        <div class="swiper-slide who-card">
+                            <div class="who-card-icon"><img src="https://i.ibb.co/4P2pB2h/icon-vision.png" alt=""></div>
+                            <h3>Our Vision</h3>
+                            <p>To equip our participants with the practical skills and confidence they need to succeed in the fast-evolving tech industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container stats-container">
+                <div class="stat-item">
+                    <h3 class="count" data-target="5000">0</h3><span>+</span>
+                    <p>INTERNS ENROLLED</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="count" data-target="9000">0</h3><span>+</span>
+                    <p>PROJECTS COMPLETED</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="count" data-target="93">0</h3><span>%</span>
+                    <p>SATISFACTION RATE</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="count" data-target="30">0</h3><span>+</span>
+                    <p>TOP INSTRUCTORS</p>
+                </div>
+            </div>
+        </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <p>&copy; 2025 InlighnTech. All Rights Reserved.</p>
-  </footer>
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>TESTIMONIALS</h2>
+                </div>
+                <div class="swiper testimonials-slider">
+                    <div class="swiper-wrapper">
+                        <!-- Testimonial Slides -->
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <div class="swiper-pagination"></div>
+                    <div class="drag-indicator">< DRAG ></div>
+                </div>
+            </div>
+        </section>
 
-  <script src="script.js"></script>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>GET IN TOUCH</h2>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Domain of Internship">
+                        <input type="text" placeholder="State">
+                    </div>
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-about">
+                <img src="https://i.ibb.co/6rC6hC4/logo.png" alt="Inlighn Tech">
+                <p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#">Login To Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Term & Conditions</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p><i class="fas fa-map-marker-alt"></i> Corporate Office- Office No: VO-301, WeWork Prestige Central, Ground Floor, 36, Infantry Rd, Tasker Town, Shivaji Nagar, Bengaluru, Karnataka 560001</p>
+                <p><i class="fas fa-phone"></i> +91 9368842663</p>
+                <p><i class="fas fa-envelope"></i> info@inlighntech.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2025 INLIGHN TECH | All Rights Reserved | Design By <a href="#">Gdscreatives</a></p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Icon -->
+    <a href="#" class="whatsapp-icon"><i class="fab fa-whatsapp"></i></a>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
