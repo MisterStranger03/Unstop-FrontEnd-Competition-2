@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <img src="https://i.ibb.co/6rC6hC4/logo.png" alt="Inlighn Tech Logo" class="preloader-logo">
+        <div class="preloader-bar"></div>
+    </div>
 
     <!-- Custom Cursor -->
     <div class="cursor-dot"></div>
@@ -17,7 +22,7 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="#" class="logo"><img src="https://i.ibb.co/6rC6hC4/logo.png" alt="Inlighn Tech"></a>
+            <a href="#home" class="logo"><img src="https://i.ibb.co/6rC6hC4/logo.png" alt="Inlighn Tech"></a>
             <nav class="navbar">
                 <ul class="nav-links">
                     <li><a href="#home" class="nav-link active">Home</a></li>
@@ -37,23 +42,22 @@
         <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="container hero-container">
-                <div class="hero-content">
+                <div class="hero-content" data-animation="fade-in-up">
                     <h1>Transform Your Career with <br><span>INLIGHN TECH</span></h1>
                     <p>Gain real-world experience with our immersive Internship programs in Cyber Security, Full Stack Development, Data Science, Data Analyst and in various tech domains. Learn today, lead tomorrow.</p>
                     <a href="#programs" class="btn-explore">Explore Internships</a>
                 </div>
-                <div class="hero-image">
+                <div class="hero-image" data-animation="fade-in-up" data-animation-delay="200">
                     <img src="https://i.ibb.co/mHkGqFf/hero-image.png" alt="Robotic Hand">
                 </div>
             </div>
             <div class="hero-bg-shapes">
-                <div class="shape1"></div>
-                <div class="shape2"></div>
+                <div class="shape1"></div><div class="shape2"></div>
             </div>
         </section>
 
         <!-- Recognitions Section -->
-        <section class="recognitions">
+        <section class="recognitions" data-animation="fade-in-up">
             <div class="container recognitions-container">
                 <img src="https://i.ibb.co/N2XQ3yX/ministry.png" alt="Ministry of Corporate Affairs">
                 <img src="https://i.ibb.co/7C9Cwhj/iso.png" alt="ISO Certified">
@@ -64,10 +68,10 @@
         <!-- About Section -->
         <section id="about" class="about">
             <div class="container about-container">
-                <div class="about-image"><img src="https://i.ibb.co/hZ2vKdx/about-us.jpg" alt="Team discussing"></div>
-                <div class="about-content">
+                <div class="about-image" data-animation="fade-in-up"><img src="https://i.ibb.co/hZ2vKdx/about-us.jpg" alt="Team discussing"></div>
+                <div class="about-content" data-animation="fade-in-up" data-animation-delay="200">
                     <h2>We Provide Best Internship For You</h2>
-                    <p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs. Founded with a passion for providing meaningful and immersive learning experiences, we offer internship programs that equip students and young professionals with practical skills in Full Stack Development, Data Science, and Project Management.</p>
+                    <p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs. Founded with a passion for providing meaningful and immersive learning experiences, we offer internship programs that equip students and young professionals with practical skills.</p>
                     <a href="#" class="btn-know-more">Know More</a>
                 </div>
             </div>
@@ -75,8 +79,8 @@
 
         <!-- Features Section -->
         <section id="special" class="features">
-            <div class="container features-container">
-                <div class="feature-item">
+            <div class="container features-container" data-animation-stagger>
+                <div class="feature-item" data-animation="fade-in-up">
                     <div class="feature-image"><img src="https://i.ibb.co/yY1SgDk/projects.jpg" alt="Real-World Projects"></div>
                     <div class="feature-text">
                         <div class="feature-icon"><img src="https://i.ibb.co/Y0P7sJd/icon-projects.png" alt=""></div>
@@ -84,7 +88,7 @@
                         <p>Gain hands-on experience with real industry projects and build a portfolio that stands out.</p>
                     </div>
                 </div>
-                <div class="feature-item reverse">
+                <div class="feature-item reverse" data-animation="fade-in-up">
                     <div class="feature-text">
                         <div class="feature-icon"><img src="https://i.ibb.co/yQj9yC2/icon-mentor.png" alt=""></div>
                         <h3>Expert Mentorship</h3>
@@ -96,68 +100,37 @@
         </section>
 
         <!-- Who We Are Section -->
-        <section class="who-we-are">
+        <section class="who-we-are" id="programs">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header" data-animation="fade-in-up">
                     <h2>WHO WE ARE</h2>
                     <div class="swiper-navigation">
                         <div class="who-we-are-prev"><i class="fas fa-arrow-left"></i></div>
                         <div class="who-we-are-next"><i class="fas fa-arrow-right"></i></div>
                     </div>
                 </div>
-                <div class="swiper who-we-are-slider">
+                <div class="swiper who-we-are-slider" data-animation="fade-in-up" data-animation-delay="200">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide who-card">
-                             <div class="who-card-icon"><img src="https://i.ibb.co/N73dZy3/icon-about.png" alt=""></div>
-                            <h3>About INLIGHN TECH</h3>
-                            <p>We believe that the future of education lies in bridging the gap between academic learning and industry needs...</p>
-                        </div>
-                        <div class="swiper-slide who-card">
-                            <div class="who-card-icon"><img src="https://i.ibb.co/K7v7rDk/icon-mission.png" alt=""></div>
-                            <h3>Our Mission</h3>
-                            <p>To empower students and young professionals by providing immersive, real-world learning experiences through tailored internship programs.</p>
-                        </div>
-                        <div class="swiper-slide who-card">
-                            <div class="who-card-icon"><img src="https://i.ibb.co/4P2pB2h/icon-vision.png" alt=""></div>
-                            <h3>Our Vision</h3>
-                            <p>To equip our participants with the practical skills and confidence they need to succeed in the fast-evolving tech industry.</p>
-                        </div>
+                        <!-- Slides populated by JS -->
                     </div>
                 </div>
             </div>
         </section>
         
         <!-- Stats Section -->
-        <section class="stats">
+        <section class="stats" data-animation="fade-in-up">
             <div class="container stats-container">
-                <div class="stat-item">
-                    <h3 class="count" data-target="5000">0</h3><span>+</span>
-                    <p>INTERNS ENROLLED</p>
-                </div>
-                <div class="stat-item">
-                    <h3 class="count" data-target="9000">0</h3><span>+</span>
-                    <p>PROJECTS COMPLETED</p>
-                </div>
-                <div class="stat-item">
-                    <h3 class="count" data-target="93">0</h3><span>%</span>
-                    <p>SATISFACTION RATE</p>
-                </div>
-                <div class="stat-item">
-                    <h3 class="count" data-target="30">0</h3><span>+</span>
-                    <p>TOP INSTRUCTORS</p>
-                </div>
+                <!-- Stats populated by JS -->
             </div>
         </section>
 
         <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2>TESTIMONIALS</h2>
-                </div>
+        <section class="testimonials" id="verify">
+            <div class="container" data-animation="fade-in-up">
+                <div class="section-header"><h2>TESTIMONIALS</h2></div>
                 <div class="swiper testimonials-slider">
                     <div class="swiper-wrapper">
-                        <!-- Testimonial Slides -->
+                        <!-- Testimonials populated by JS -->
                     </div>
                 </div>
                 <div class="slider-controls">
@@ -169,12 +142,11 @@
 
         <!-- Contact Section -->
         <section id="contact" class="contact">
-            <div class="container">
+            <div class="container" data-animation="fade-in-up">
                 <h2>GET IN TOUCH</h2>
                 <form class="contact-form">
                     <div class="form-row">
-                        <input type="text" placeholder="Domain of Internship">
-                        <input type="text" placeholder="State">
+                        <input type="text" placeholder="Domain of Internship"><input type="text" placeholder="State">
                     </div>
                     <textarea placeholder="Message"></textarea>
                     <button type="submit" class="btn-submit">Submit</button>
@@ -185,52 +157,17 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-about">
-                <img src="https://i.ibb.co/6rC6hC4/logo.png" alt="Inlighn Tech">
-                <p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs.</p>
-            </div>
-            <div class="footer-links">
-                <h4>Menu</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#programs">Programs</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                    <li><a href="#">Login To Portal</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Term & Conditions</a></li>
-                    <li><a href="#">Disclaimer</a></li>
-                    <li><a href="#">FAQ's</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h4>Follow Us</h4>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                </div>
-                <p><i class="fas fa-map-marker-alt"></i> Corporate Office- Office No: VO-301, WeWork Prestige Central, Ground Floor, 36, Infantry Rd, Tasker Town, Shivaji Nagar, Bengaluru, Karnataka 560001</p>
-                <p><i class="fas fa-phone"></i> +91 9368842663</p>
-                <p><i class="fas fa-envelope"></i> info@inlighntech.com</p>
-            </div>
+        <div class="container footer-container" data-animation-stagger>
+            <!-- Footer content populated by JS -->
         </div>
         <div class="footer-bottom">
             <p>Copyright 2025 INLIGHN TECH | All Rights Reserved | Design By <a href="#">Gdscreatives</a></p>
         </div>
     </footer>
 
-    <!-- Floating WhatsApp Icon -->
-    <a href="#" class="whatsapp-icon"><i class="fab fa-whatsapp"></i></a>
-
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    <!-- Floating Icons -->
+    <a href="#" class="whatsapp-icon" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="#home" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
