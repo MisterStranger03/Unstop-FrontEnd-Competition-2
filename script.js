@@ -3,22 +3,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- DYNAMIC CONTENT ---
     function populateHTML() {
         const whoWeAreData = [
-            { icon: 'https://i.imgur.com/B7mI54j.png', title: 'About INLIGHN TECH', text: 'We believe that the future of education lies in bridging the gap between academic learning and industry needs.' },
-            { icon: 'https://i.imgur.com/6jws3v6.png', title: 'Our Mission', text: 'To empower students by providing immersive, real-world learning experiences through tailored internship programs.' },
-            { icon: 'https://i.imgur.com/Gz9R1xP.png', title: 'Our Vision', text: 'To equip participants with practical skills and confidence they need to succeed in the fast-evolving tech industry.' }
+            { icon: 'https://i.postimg.cc/PqMyGzQj/icon-about.png', title: 'About INLIGHN TECH', text: 'We believe that the future of education lies in bridging the gap between academic learning and industry needs.' },
+            { icon: 'https://i.postimg.cc/bJpYcT4N/icon-mission.png', title: 'Our Mission', text: 'To empower students by providing immersive, real-world learning experiences through tailored internship programs.' },
+            { icon: 'https://i.postimg.cc/W3tYw1hN/icon-vision.png', title: 'Our Vision', text: 'To equip participants with practical skills and confidence they need to succeed in the fast-evolving tech industry.' }
         ];
         const statsData = [
             { target: 5000, label: 'INTERNS ENROLLED', suffix: '+' }, { target: 9000, label: 'PROJECTS COMPLETED', suffix: '+' },
             { target: 93, label: 'SATISFACTION RATE', suffix: '%' }, { target: 30, label: 'TOP INSTRUCTORS', suffix: '+' }
         ];
         const testimonialsData = [
-            { name: 'Surendra Kumar', role: 'Data Science Intern', text: 'I completed my Data Science internship at INLIGHN TECH, gaining hands-on experience in Machine Learning & AI Models. The guidance improved my problem-solving skills.', img: 'https://i.imgur.com/sWbYJmP.jpg' },
-            { name: 'Mrunalini R', role: 'Data Analyst Intern', text: 'During my internship, I learned SQL, Power BI, and Tableau. The program focused on real-world business intelligence projects, which helped me understand data-driven decision-making.', img: 'https://i.imgur.com/QirYd2y.jpg' },
-            { name: 'Vignesh', role: 'Business Analyst Intern', text: 'I interned in Business Analysis where I gained experience in Market Research and Financial Analysis. The training and projects provided deep insights into business strategies. Incredibly valuable.', img: 'https://i.imgur.com/sWkZcI3.jpg' }
+            { name: 'Surendra Kumar', role: 'Data Science Intern', text: 'I completed my Data Science internship at INLIGHN TECH, gaining hands-on experience in Machine Learning & AI Models. The guidance improved my problem-solving skills.', img: 'https://i.postimg.cc/HkjY0PjD/t1.jpg' },
+            { name: 'Mrunalini R', role: 'Data Analyst Intern', text: 'During my internship, I learned SQL, Power BI, and Tableau. The program focused on real-world business intelligence projects, which helped me understand data-driven decision-making.', img: 'https://i.postimg.cc/q73Y9hLg/t2.jpg' },
+            { name: 'Vignesh', role: 'Business Analyst Intern', text: 'I interned in Business Analysis where I gained experience in Market Research and Financial Analysis. The training and projects provided deep insights into business strategies. Incredibly valuable.', img: 'https://i.postimg.cc/mDGBXpCH/t3.jpg' }
         ];
         const footerHTML = `
             <div class="container footer-container">
-                <div class="footer-about" data-animation="fade-in-up"><img src="https://i.imgur.com/82f2Ipx.png" alt="Inlighn Tech"><p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs.</p></div>
+                <div class="footer-about" data-animation="fade-in-up"><img src="https://i.postimg.cc/d1qRzJ5z/logo.png" alt="Inlighn Tech"><p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs.</p></div>
                 <div class="footer-links" data-animation="fade-in-up" data-animation-delay="100"><h4>Menu</h4><ul><li><a href="#home">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#programs">Programs</a></li><li><a href="#contact">Contact Us</a></li><li><a href="#">Login To Portal</a></li></ul></div>
                 <div class="footer-links" data-animation="fade-in-up" data-animation-delay="200"><h4>Quick Links</h4><ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Term & Conditions</a></li><li><a href="#">Disclaimer</a></li><li><a href="#">FAQ's</a></li></ul></div>
                 <div class="footer-contact" data-animation="fade-in-up" data-animation-delay="300"><h4>Follow Us</h4><div class="social-icons"><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></div><p><i class="fas fa-map-marker-alt"></i> VO-301, WeWork Prestige Central, 36, Infantry Rd, Bengaluru, Karnataka 560001</p><p><i class="fas fa-phone"></i> +91 9368842663</p><p><i class="fas fa-envelope"></i> info@inlighntech.com</p></div>
