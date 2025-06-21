@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
     <!-- Preloader -->
     <div class="preloader">
         <img src="https://i.ibb.co/6rC6hC4/logo.png" alt="Inlighn Tech Logo" class="preloader-logo">
@@ -41,6 +42,7 @@
     <main>
         <!-- Hero Section -->
         <section id="home" class="hero">
+            <div class="hero-bg-canvas"></div>
             <div class="container hero-container">
                 <div class="hero-content" data-animation="fade-in-up">
                     <h1>Transform Your Career with <br><span>INLIGHN TECH</span></h1>
@@ -50,9 +52,6 @@
                 <div class="hero-image" data-animation="fade-in-up" data-animation-delay="200">
                     <img src="https://i.ibb.co/mHkGqFf/hero-image.png" alt="Robotic Hand">
                 </div>
-            </div>
-            <div class="hero-bg-shapes">
-                <div class="shape1"></div><div class="shape2"></div>
             </div>
         </section>
 
@@ -68,39 +67,40 @@
         <!-- About Section -->
         <section id="about" class="about">
             <div class="container about-container">
-                <div class="about-image" data-animation="fade-in-up"><img src="https://i.ibb.co/hZ2vKdx/about-us.jpg" alt="Team discussing"></div>
+                <div class="about-image" data-animation="fade-in-up"><img src="https://i.ibb.co/wYdKz3T/about-us.jpg" alt="Team discussing"></div>
                 <div class="about-content" data-animation="fade-in-up" data-animation-delay="200">
                     <h2>We Provide Best Internship For You</h2>
-                    <p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs. Founded with a passion for providing meaningful and immersive learning experiences, we offer internship programs that equip students and young professionals with practical skills.</p>
+                    <p>At INLIGHN TECH, we believe that the future of education lies in bridging the gap between academic learning and industry needs. Founded with a passion for providing meaningful and immersive learning experiences, we offer internship programs that equip students and young professionals with practical skills in Full Stack Development, Data Science, and Project Management.</p>
                     <a href="#" class="btn-know-more">Know More</a>
                 </div>
             </div>
         </section>
-
-        <!-- Features Section -->
-        <section id="special" class="features">
-            <div class="container features-container" data-animation-stagger>
-                <div class="feature-item" data-animation="fade-in-up">
-                    <div class="feature-image"><img src="https://i.ibb.co/yY1SgDk/projects.jpg" alt="Real-World Projects"></div>
-                    <div class="feature-text">
-                        <div class="feature-icon"><img src="https://i.ibb.co/Y0P7sJd/icon-projects.png" alt=""></div>
-                        <h3>Real-World Projects</h3>
-                        <p>Gain hands-on experience with real industry projects and build a portfolio that stands out.</p>
+        
+        <!-- Why Choose Us / What's Special Section -->
+        <section id="special" class="why-choose-us">
+            <div class="container">
+                <h2 class="section-title" data-animation="fade-in-up">Why Choose Us?</h2>
+                <div class="why-choose-us-grid">
+                    <div class="why-card" data-animation="fade-in-up">
+                         <div class="why-card-img"><img src="https://i.ibb.co/MfZv7T3/why-us-1.jpg" alt="Career Support"></div>
+                         <div class="why-card-content">
+                             <h3>Career Support</h3>
+                             <p>We go beyond training. Our career services include portfolio reviews, interview prep, and connections with industry professionals to help you land your dream job.</p>
+                         </div>
                     </div>
-                </div>
-                <div class="feature-item reverse" data-animation="fade-in-up">
-                    <div class="feature-text">
-                        <div class="feature-icon"><img src="https://i.ibb.co/yQj9yC2/icon-mentor.png" alt=""></div>
-                        <h3>Expert Mentorship</h3>
-                        <p>Learn from seasoned professionals who guide you through every step of your journey.</p>
+                     <div class="why-card-large" data-animation="fade-in-up" data-animation-delay="200">
+                         <div class="why-card-img"><img src="https://i.ibb.co/QcYn95v/why-us-2.jpg" alt="Tailored Programs"></div>
+                         <div class="why-card-content">
+                            <h3>Tailored Programs</h3>
+                            <p>Our courses in Full Stack Development, Data Science, and Project Management are crafted with a focus on hands-on, practical learning.</p>
+                        </div>
                     </div>
-                     <div class="feature-image"><img src="https://i.ibb.co/vVRv8rP/mentorship.jpg" alt="Expert Mentorship"></div>
                 </div>
             </div>
         </section>
 
         <!-- Who We Are Section -->
-        <section class="who-we-are" id="programs">
+        <section id="programs" class="who-we-are">
             <div class="container">
                 <div class="section-header" data-animation="fade-in-up">
                     <h2>WHO WE ARE</h2>
@@ -111,26 +111,26 @@
                 </div>
                 <div class="swiper who-we-are-slider" data-animation="fade-in-up" data-animation-delay="200">
                     <div class="swiper-wrapper">
-                        <!-- Slides populated by JS -->
+                        <!-- Content populated by JS -->
                     </div>
                 </div>
             </div>
         </section>
         
         <!-- Stats Section -->
-        <section class="stats" data-animation="fade-in-up">
-            <div class="container stats-container">
-                <!-- Stats populated by JS -->
+        <section class="stats">
+            <div class="container stats-container" data-animation="fade-in-up">
+                <!-- Content populated by JS -->
             </div>
         </section>
 
         <!-- Testimonials Section -->
-        <section class="testimonials" id="verify">
+        <section id="verify" class="testimonials">
             <div class="container" data-animation="fade-in-up">
-                <div class="section-header"><h2>TESTIMONIALS</h2></div>
+                <h2 class="section-title">Testimonials</h2>
                 <div class="swiper testimonials-slider">
                     <div class="swiper-wrapper">
-                        <!-- Testimonials populated by JS -->
+                         <!-- Content populated by JS -->
                     </div>
                 </div>
                 <div class="slider-controls">
@@ -143,7 +143,7 @@
         <!-- Contact Section -->
         <section id="contact" class="contact">
             <div class="container" data-animation="fade-in-up">
-                <h2>GET IN TOUCH</h2>
+                <h2 class="section-title">Get In Touch</h2>
                 <form class="contact-form">
                     <div class="form-row">
                         <input type="text" placeholder="Domain of Internship"><input type="text" placeholder="State">
@@ -157,13 +157,20 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-container" data-animation-stagger>
-            <!-- Footer content populated by JS -->
-        </div>
-        <div class="footer-bottom">
-            <p>Copyright 2025 INLIGHN TECH | All Rights Reserved | Design By <a href="#">Gdscreatives</a></p>
-        </div>
+         <!-- Content populated by JS -->
     </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <div class="chat-bubble">
+            <i class="fas fa-comment-dots"></i>
+        </div>
+        <div class="chat-popup">
+            <div class="chat-header">INLIGHN TECH <button class="chat-close">×</button></div>
+            <div class="chat-body">Hello 👋 <br> Can we help you?</div>
+            <a href="#" class="chat-button">Open Chat</a>
+        </div>
+    </div>
 
     <!-- Floating Icons -->
     <a href="#" class="whatsapp-icon" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
